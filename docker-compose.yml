@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+   shop:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      TG_BOT_TOKEN: $TG_BOT_TOKEM
+      DATABASE_URI: $DATABASE_URI
+      CHANNELS: $CHANNELS
+      ADMINS: $ADMINS
+      FORCE_SUB_CHANNEL: $FORCE_SUB_CHANNEL
+      FORCE_SUB_MESSAGE: $FORCE_SUB_MESSAGE
+      OWNER_ID: $OWNER_ID
+      START_MESSAGE: $START_MESSAGE
