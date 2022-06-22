@@ -1,6 +1,7 @@
 {
   "name": "File Store",
   "description": "Telegram bot to store your telegram files",
+  "stack": "container",
   "keywords": [
     "telegram",
     "best",
